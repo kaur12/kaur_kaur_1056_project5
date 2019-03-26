@@ -1,0 +1,205 @@
+@charset "UTF-8";
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.hidden {
+	display: none;
+}
+
+.siteContainer {
+  margin: 0 auto;
+  background-color: #efefef;
+  max-width: 1200px;
+}
+
+.blocks {
+  background-color: #000000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.nav
+{
+  width: 20px;
+}
+
+.logo
+{
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.search
+{
+	width: 120px;
+  height: 20px;
+  margin-left: auto;
+}
+
+.coverImage
+{
+  height: 200px;
+}
+
+.Image1
+{
+  height: 200px;
+}
+
+.Text1
+{
+  height: 200px;
+}
+
+.band
+{
+  height: 20px;
+}
+
+.Rods
+{
+  background-color: #000000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 50px;
+}
+
+.merchandisingText
+{
+  height: 200px;
+}
+
+.merchandisingPic
+{
+  height: 200px;
+}
+
+.footerNav
+{
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+  #header
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blocks
+  {
+    flex: 1 1 auto;
+  }
+
+  .logo
+  {
+    height: 150px;
+    margin-left: 10px;
+    margin-right: auto;
+    order: -1;
+    flex: 0 1 150px;
+  }
+  .mainNav
+  {
+    display: flex;
+    flex-direction: column;
+   }
+
+  .nav
+  {
+    width: 500px;
+    flex: 0 1 30px;
+    margin-left: auto;
+  }
+
+  .search 
+  {
+    margin-left:auto;
+   	flex: 0 1 20px;
+  }
+  
+  .welcomeCon
+  {
+    display: flex;
+    flex-directio: row;
+  }
+  
+  .Image1
+  {
+    flex: 0 1 200px;
+    width: 200px;
+    margin-left: 10px;
+  }
+  
+  .Text1
+  {
+    flex: 1 1 200px;
+    width: 450px;
+    margin-left: auto;
+  }
+
+  .rodBuilding
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Rods
+  {
+    width: 80px;
+    flex: 1 1 50px;
+    margin-left: 10px;
+  }
+  
+  .merchandising
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .merchandisingText
+  {
+    flex: 1 1 200px;
+    width: 450px;
+    margin-left: 10px;
+  }
+  
+  .merchandisingPic
+  {
+    flex: 0 1 200px;
+    width: 200px;
+  }
+  
+  .footer
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footerNav
+  {
+    flex: 1 1 220px;
+  }
+  
+  .socialMedia
+  {
+    margin-left: 10px;
+    margin-right: auto;
+    flex: 0 0 220px;
+  }
+
+
+}
