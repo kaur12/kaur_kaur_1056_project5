@@ -4,7 +4,7 @@ body {
 }
 
 .hidden {
-	display: none;
+  display: none;
 }
 
 .siteContainer {
@@ -38,7 +38,7 @@ body {
 
 .search
 {
-	width: 120px;
+  width: 120px;
   height: 20px;
   margin-left: auto;
 }
@@ -89,7 +89,7 @@ body {
 
 .footerNav
 {
-  display: none;
+  height: 250px;
 }
 
 @media screen and (min-width:768px) {
@@ -111,7 +111,7 @@ body {
     margin-left: 10px;
     margin-right: auto;
     order: -1;
-    flex: 0 1 150px;
+    flex: 0 1 50px;
   }
   .mainNav
   {
@@ -122,20 +122,20 @@ body {
   .nav
   {
     width: 500px;
-    flex: 0 1 30px;
+    flex: 0 1 10px;
     margin-left: auto;
   }
 
   .search 
   {
     margin-left:auto;
-   	flex: 0 1 20px;
+    flex: 0 1 1px;
   }
   
   .welcomeCon
   {
     display: flex;
-    flex-directio: row;
+    flex-direction: row;
   }
   
   .Image1
@@ -165,24 +165,7 @@ body {
     height: 80px;
   }
   
-  .merchandising
-  {
-    display: flex;
-    flex-direction: row;
-  }
   
-  .merchandisingText
-  {
-    flex: 1 1 200px;
-    width: 450px;
-    margin-left: 10px;
-  }
-  
-  .merchandisingPic
-  {
-    flex: 0 1 200px;
-    width: 200px;
-  }
   
   .footer
   {
@@ -196,12 +179,6 @@ body {
     flex: 1 1 220px;
   }
   
-  .socialMedia
-  {
-    margin-left: 10px;
-    margin-right: auto;
-    flex: 0 0 220px;
-  }
-
+  
 
 }
