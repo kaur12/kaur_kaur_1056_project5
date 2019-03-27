@@ -97,6 +97,7 @@ body {
   {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
   }
 
   .blocks
@@ -159,9 +160,9 @@ body {
   
   .Rods
   {
-    width: 80px;
-    flex: 1 1 50px;
+    flex: 1 1 70px;
     margin-left: 10px;
+    height: 80px;
   }
   
   .merchandising
@@ -191,6 +192,7 @@ body {
   
   .footerNav
   {
+    display: block;
     flex: 1 1 220px;
   }
   
